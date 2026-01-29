@@ -4,7 +4,7 @@ import ViewUser from "./ViewUser";
 import ViewError from "./ViewError";
 import ViewLoader from "./ViewLoader";
 
-export default function Dashboard() {
+export default function Widget() {
   const [URLSearchParams] = useSearchParams();
   const githubUserName = URLSearchParams.get("github_username");
 
