@@ -1,6 +1,6 @@
 
 export default function Home() {
-  const dashboardUrl = `https://niiicolai.github.io/widget-github-user-tracker/#/widget?github_username=niiicolai`;
+  const widgetUrl = `https://niiicolai.github.io/widget-github-user-tracker/#/widget?github_username=niiicolai`;
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-900">
@@ -28,7 +28,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
           Demo
         </h2>
-        <iframe src={dashboardUrl} width="100%" height="440px" className="rounded-xl"></iframe>
+        <iframe src={widgetUrl} width="100%" height="440px" className="rounded-xl"></iframe>
       </section>
 
       <section className="mb-8">
